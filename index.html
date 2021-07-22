@@ -162,7 +162,7 @@
         // Set the image delete URL.
         imageManagerDeleteURL: '/delete_image.php',
         key: '', //Place your key after downloading from https://froala.com/pages
-        designsThumbsDir:'/design-blocks/screenshots/',
+        designsThumbsDir:'./design-blocks/screenshots/',
         // designsImagesDir:'',
         designsDefaultBlocks: 'Test'
     });
@@ -215,7 +215,7 @@
     //         });
     // });
     $(function (){
-        $.get( "/start.html", function( data ) {
+        $.get( "./start.html", function( data ) {
             window.pages.setHTML(data);
             console.log(data);
         });
