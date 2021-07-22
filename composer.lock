@@ -1,0 +1,78 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "98023d57cc6f3e02b019643629f1a580",
+    "packages": [
+        {
+            "name": "froala/wysiwyg-editor-php-sdk",
+            "version": "4.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/froala/wysiwyg-editor-php-sdk.git",
+                "reference": "a777f5b0b1d915117d65bf2e075e4107719de0f7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/froala/wysiwyg-editor-php-sdk/zipball/a777f5b0b1d915117d65bf2e075e4107719de0f7",
+                "reference": "a777f5b0b1d915117d65bf2e075e4107719de0f7",
+                "shasum": ""
+            },
+            "type": "php-plugin",
+            "extra": {
+                "installer-name": "FroalaEditor"
+            },
+            "autoload": {
+                "psr-0": {
+                    "FroalaEditor": "lib/"
+                },
+                "psr-4": {
+                    "FroalaEditor\\": "lib/FroalaEditor"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Froala Labs",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "PHP SDK for Froala WYSIWYG Editor",
+            "homepage": "https://www.froala.com/wysiwyg-editor",
+            "keywords": [
+                "editor",
+                "froala",
+                "html",
+                "php",
+                "php rich text editor",
+                "php rte",
+                "php wysiwyg",
+                "rich editor",
+                "rich text editor",
+                "rte",
+                "sdk",
+                "text",
+                "wysiwyg"
+            ],
+            "support": {
+                "issues": "https://github.com/froala/froala-editor-php-sdk/issues",
+                "source": "https://www.froala.com/wysiwyg-editor"
+            },
+            "time": "2021-07-06T16:10:09+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}

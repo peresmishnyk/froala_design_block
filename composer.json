@@ -1,0 +1,5 @@
+{
+    "require": {
+        "froala/wysiwyg-editor-php-sdk": "^4.0"
+    }
+}
